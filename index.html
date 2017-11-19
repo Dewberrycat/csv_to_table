@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Pragma" content="no-cache" />
+<meta charset="UTF-8">
+<meta http-equiv="Pragma" content="no-cache">
 <title>N</title>
-<link rel="stylesheet" href="st.css" />
+<link rel="stylesheet" href="st.css">
 <script src="csv.js"></script>
 </head>
 <body>
@@ -17,12 +17,17 @@
 
 <br />
 
-
+<div class="cont">
+<p>
+	Insert CSV data here:
+</p>
+<br>
 <textarea style="border-radius: 4px" id="source" rows="9" cols="90"></textarea>
-<br />
+<br>
+<br>
 <button onclick="csvJSON3(document.getElementById('source').value)">Generate</button>
-<br />
-<br />
+<br>
+<br>
 
 
 
@@ -30,10 +35,12 @@
 <table cellspacing="0"><tbody id="out"></tbody></table>
 </div>
 
-<br />
-<br />
+<br>
+<br>
 <h3>Код:</h3>
 <div id="code">
+</div>
+
 </div>
 
 </div>

@@ -11,26 +11,32 @@ html, body {
 }
 
 body {
-	background-image: url(billie.png);
+	background-image: url(15black2.jpg);
+	color: #EEE;
+	font-family: Arial;
 }
 
 .wr {
   max-width: 800px;
   min-height:100%;
-  background-color: #FFF;
+  background-color: #27282A;
   margin: 0 auto;
-  padding: 15px;
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 9px rgba(0, 0, 0, 1);
 }
 
 .tit {
 	width: 100%;
 	height: 50px;
-	background-color: #000;
+	line-height: 50px;
+	background: linear-gradient(to bottom, #0B0B0C, #27282A);
 	color: #EEE;
 	padding-left: 30px;
-	margin-left: -15px;
-	margin-top: -15px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #000;
+}
+
+.cont {
+	padding: 15px;
 }
 
 td {
@@ -41,27 +47,43 @@ td {
 
 button {
 	width: 200px;
-	height: 35px;
+	height: 45px;
+	line-height: 45px;
+	outline: 0;
+	border-radius: 6px;
+	border: 0;
+	background: linear-gradient(to bottom, #999, #666);
+
+}
+
+textarea {
+	background-color: #AAA;
+	outline: 0;
+	padding: 10px;
 }
 
 .gr {
-  background-color: #CCC;
+  background-color: #888;
 }
 
 
 
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
 	.wr {
-		width: 70%;
+		width: 100%;
 	}
 
 	.tit {
 		
-		font-size: 10px;
+		font-size: 1.2em;
 	}
 
 	textarea {
-		width: 70%;
+		width: 95%;
+	}
+
+	button {
+		width: 95%;
 	}
 }
 
