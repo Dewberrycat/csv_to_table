@@ -60,6 +60,7 @@ textarea {
 	background-color: #AAA;
 	outline: 0;
 	padding: 10px;
+	box-sizing: border-box;
 }
 
 .gr {
