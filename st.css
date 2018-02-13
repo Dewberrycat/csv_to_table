@@ -26,11 +26,10 @@ body {
 
 .tit {
 	width: 100%;
-	height: 50px;
 	line-height: 50px;
 	background: linear-gradient(to bottom, #0B0B0C, #27282A);
 	color: #EEE;
-	padding-left: 30px;
+	padding: 10px 30px;
 	box-sizing: border-box;
 	border-bottom: 1px solid #000;
 }
